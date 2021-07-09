@@ -1,0 +1,66 @@
+.examSection{
+    margin:20px;
+    display: block;
+}
+.top_section{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    
+    margin-right: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: center;
+
+}
+
+.para{
+    margin-left: 120px;
+    
+    font-size: 18px;
+    
+}
+.register{
+    font-size: 14px;
+    color: blueviolet;
+    cursor: pointer;
+}
+.top_section > button{
+    font-size: 16px;
+    border: 0.5px solid #0275d8;
+    margin: 5px;
+    outline: none;
+    background-color:white;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    color:#0275d8;
+    font-weight: 600;
+}
+.midsection{
+    margin: 50px;
+    
+
+}
+.cards{
+    margin: 20px 100px 20px 100px;
+    
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    padding:30px;
+    background: linear-gradient(
+    200deg,
+    rgba(255,255,255,0.7) 20%,
+    rgba(255,255,255,.3) 80%
+  );
+    
+    
+}
+@media screen and (max-width:768px) {
+    .cards{
+        display: block;
+    }
+    
+}

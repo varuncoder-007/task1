@@ -1,0 +1,50 @@
+.about{
+    margin: 0 220px 10px 220px;
+    border: 2px solid #8ac7f0;
+    border-radius: 30px;
+    background-color: #d5eeff;
+    
+    
+}
+.about__section{
+    display: flex;
+    justify-content: space-around;
+}
+.about__header{
+    margin-left: 20px;
+    font-size: 35px;
+    color: rgb(15, 6, 98);
+    padding: 20px;
+    font-weight: 700;
+    
+}
+ .about__left{
+     display: grid;
+     
+     
+ }
+ .about__left > img{
+     height:100px;
+     padding: 5px;
+ }
+ .about__option{
+     display: flex;
+     align-items: flex-start;
+     
+ }
+ .about__title{
+     padding-top: 10px;
+ }
+ .about__title>h3{
+     margin: 0;
+
+ }
+ .about__title>p{
+     margin: 0;   
+ }
+
+
+ .about__option>img{
+    height:80px;
+    padding: 5px;
+ }

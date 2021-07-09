@@ -1,0 +1,68 @@
+.card{
+    margin-top: 40px;
+    
+    border-radius: 10px;
+   display: block;
+    width: 200px;
+    padding: 30px;
+    height: fit-content;
+    background-color: #d5eeff ;
+    border: 1.5px solid gray;
+}
+.card__top{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin-top: -60px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    
+    align-items: center;
+}
+.card__content{
+
+    padding: 20px 0 20px 0;
+
+}
+
+.card__bottom{
+    justify-content: center;
+}
+.card__bottom>button{
+    border: 0.5px solid #0275d8;
+    
+    margin: 5px;
+    border-radius: 5px;
+    background:none;
+    color: #0275d8;
+    cursor: pointer;
+    padding: 5px;
+
+}
+.success{
+    color: green !important;
+    border-color: green !important;
+}
+.mock{
+    width: 180px !important;
+
+}
+.success:hover{
+    background-color:#5ec399 !important;
+}
+.card__bottom>button:hover{
+    background-color: lightblue;
+}
+
+.checkbox_content{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    max-width: 100px;
+    max-height:30px;
+}
+.checkbox_content>p{
+    margin: 0;
+    font-size: 11px;
+}
