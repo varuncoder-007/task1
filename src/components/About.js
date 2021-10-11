@@ -9,7 +9,7 @@ function About() {
     return (
         <div className="about"> 
             <div className="about__header">
-                About The Course
+                About The Course this thhis
             </div>
             <div className="about__section">
             <div className="about__left">
